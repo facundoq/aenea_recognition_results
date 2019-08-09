@@ -1,6 +1,6 @@
 # aenea_recognition_results
 
-![demo](demo.gif)
+![](demo.gif)
 
 A plug in for [aenea](https://github.com/dictation-toolbox/aenea) to display the results of the recognition in a similar fashion to other speech engines such as Dragon NaturallySpeaking.
 
@@ -20,4 +20,9 @@ To use the plugin, you require:
 ## How to install
 
 1. Copy the file `dragonfly/_observer.py` to your dragonfly user folder
-2. Copy the *contents* of the folder `plugins`  to the `server/linux_x11/plugins/` folder. This includes the yapsy   plug-in definition file  and   the folder with the server plug-in  module.
+2. Copy the *contents* of the folder `plugins`  to the `server/linux_x11/plugins/` folder. This includes the yapsy   plug-in definition file  and   the folder with the server plug-in  module (`recognition_results`).
+
+
+##  Customization
+
+ The `recognition_results`  folder contains the file `config.py`, which allows customization of the location of the results file storage,  and the appearance of the  recognition results window.
