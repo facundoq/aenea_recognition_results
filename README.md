@@ -1,5 +1,7 @@
 # aenea_recognition_results
 
+![demo](demo.gif)
+
 A plug in for [aenea](https://github.com/dictation-toolbox/aenea) to display the results of the recognition in a similar fashion to other speech engines such as Dragon NaturallySpeaking.
 
 
