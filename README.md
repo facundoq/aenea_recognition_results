@@ -21,7 +21,7 @@ To use the plugin, you require:
 1. Copy the file `dragonfly/_observer.py` to your dragonfly user folder
 2. Copy the *contents* of the folder `plugins`  to the `server/linux_x11/plugins/` folder. This includes the yapsy   plug-in definition file  and   the folder with the server plug-in  module (`recognition_results`).
 
-Note that the plugin uses a local file in the server to communicate the results to the recognition window. This file stores in plain text the results of your speech. If security or privacy of what you input is a concern, you should delete this file regularly and/or take the appropiate measures.
+Note that the plugin uses a local file in the server to communicate the results to the recognition window. This file stores in plain text the results of your speech. If security or privacy of what you input is a concern, you should delete this file regularly and/or take the appropiate measures. By default, the file is `~/.aenea_phrases.log`.
 
 ##  Customization
 
