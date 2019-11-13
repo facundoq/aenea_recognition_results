@@ -1,8 +1,8 @@
+# NOTE:
+# For the recognition results window to work
+# in addition to placing this file in your dragonfly/macro directory
+# You need to install the plugin 'recognition_results' in the Aenea server
 
-from aenea import (Grammar, AppContext, MappingRule, CompoundRule,
-                       ActionBase,
-                       Dictation, Choice, Integer, IntegerRef,
-                       Key, Text)
 import aenea
 
 from dragonfly import RecognitionObserver
